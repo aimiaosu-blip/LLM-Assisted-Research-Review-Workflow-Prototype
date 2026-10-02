@@ -1,0 +1,7 @@
+SYNTHETIC — Ethics memo
+owner: Synthetic Ethics Reviewer
+version: 2
+
+Consent is pending approval; recruitment must not begin yet.
+Raw recordings must be deleted after 30 days under this fictional study policy.
+No cybersecurity assessment is included in this memo.

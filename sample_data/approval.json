@@ -1,0 +1,20 @@
+{
+  "synthetic": true,
+  "title": "Synthetic approval register",
+  "owner": "Synthetic Review Board",
+  "version": "2",
+  "facts": [
+    {
+      "fact_key": "retention_days",
+      "value": 30,
+      "unit": "days",
+      "note": "SYNTHETIC approved retention limit"
+    },
+    {
+      "fact_key": "consent_status",
+      "value": "pending",
+      "unit": "status",
+      "note": "SYNTHETIC approval not granted"
+    }
+  ]
+}

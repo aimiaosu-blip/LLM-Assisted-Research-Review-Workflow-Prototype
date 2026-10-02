@@ -1,0 +1,26 @@
+[
+  {
+    "id": "C1",
+    "title": "Participant sample",
+    "query": "participants sample_size pilot",
+    "fact_key": "sample_size"
+  },
+  {
+    "id": "C2",
+    "title": "Retention consistency",
+    "query": "retention_days recordings retained deleted",
+    "fact_key": "retention_days"
+  },
+  {
+    "id": "C3",
+    "title": "Consent readiness",
+    "query": "consent approval pending",
+    "fact_key": "consent_status"
+  },
+  {
+    "id": "C4",
+    "title": "Power calculation",
+    "query": "statistical power calculation effect size",
+    "fact_key": "power_calculation"
+  }
+]
