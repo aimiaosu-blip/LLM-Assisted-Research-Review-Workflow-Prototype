@@ -7,7 +7,7 @@
 - The resulting four-event hash chain passed verification.
 - HTTP adapter successful response, invalid citations and failure fallback were exercised using mocks. Real model inference was not run.
 - Generated HTML was opened in a browser; overview and expandable source provenance were visually checked, and an actual screenshot was saved.
-- Cross-version GitHub Actions configuration is included; remote CI has not run at local handoff.
+- Remote GitHub Actions completed successfully for implementation commit `b160f3d207b823b7cd75a7b4591e7ab2611ef73e`, using the configured Python 3.10/3.12/3.13 matrix: [verified run](https://github.com/aimiaosu-blip/LLM-Assisted-Research-Review-Workflow-Prototype/actions/runs/36998063980).
 
 ## Tests
 Parsing malformed/empty inputs; stable chunk identities; fixture classifications/provenance; zero-overlap retrieval; conflict witnesses beyond top-k; duplicate criteria; revision and original-event preservation; stale revisions; terminal states; required rationale/replacement; unknown IDs; audit tamper detection; no run overwrite; valid and invalid model citations; missing citations; adapter success; adapter errors; end-to-end fabricated-citation fallback; HTML escaping.
