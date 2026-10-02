@@ -8,6 +8,20 @@ The prototype turns a small research packet into traceable review recommendation
 
 ![Actual synthetic dashboard](docs/dashboard.png)
 
+See [thesis framing: capability boundaries, human duties and adoption evidence](docs/THESIS_FRAMING.md).
+
+## V4 upgrade — evidence, governance and improvement
+
+**Business × AI / Human–AI Collaboration & Knowledge Workflow**: Knowledge → AI/LLM → Evidence → Human Review → Decision.
+
+Run the full synthetic demonstration with `python3 demo/run_v4.py --out runs/my-v4`. It adds stage traces, claim consistency checks, declared human decision rights and final dispositions, nine descriptive metrics, eight human-validated RCA categories, frozen regression replay and L0/L1/L2 local improvement artifacts. See [V4 guide, metric definitions, commands and scope](docs/V4.md). The screenshot below/above is the earlier baseline; the executed [V4 HTML example](docs/examples/v4/dashboard.html) contains the new panels.
+
+| Production risk | Prototype response | Remaining limit |
+|---|---|---|
+| Non-determinism | Repeated-output consistency evaluation on fixed evidence | Exact-text proxy; live LLM quality unvalidated |
+| Black-box behavior | Claim → evidence → source and execution trace | Citations are not semantic proof; human validation needed |
+| Error propagation | Stage-level RCA, unresolved-evidence approval guard, human control and regression gates | No enterprise access control or live release/rollback system |
+
 ## Quick start — no key, no installation, no paid service
 
 Python 3.9+ (locally tested on 3.9.6; modern Python recommended). From this repository:
@@ -76,6 +90,10 @@ Failures, timeouts and invalid citations preserve the deterministic recommendati
 ```text
 reviewflow/
   core.py          parsing, metadata, retrieval, rules, Ollama, citations
+  evaluation.py    claims, traces, routing and descriptive metrics
+  governance.py    human support labels, final decisions and RCA
+  regression.py    validated case promotion and replay
+  improvement.py   differentiated L0-L2 local feedback
   storage.py       transactional decisions, event replay, hash-chain checks
   dashboard.py     escaped portable HTML, JSON export
   __main__.py      CLI

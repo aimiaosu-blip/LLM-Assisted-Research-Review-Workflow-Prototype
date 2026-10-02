@@ -1,0 +1,9 @@
+{
+  "category": "Review Criteria Ambiguity",
+  "observed_failure": "Synthetic draft and register disagree on retention duration.",
+  "first_divergence": "criteria",
+  "root_cause": "Packet does not specify which version has authority over the other.",
+  "responsible_component": "Synthetic policy owner",
+  "corrective_action": "Define authoritative version before revising the research packet; preserve conflict detection in regression.",
+  "validation_evidence": "Synthetic reviewer inspected experiment.csv row 3 (90 days) and approval.json $.facts[0] (30 days); no evidence of an AI error."
+}

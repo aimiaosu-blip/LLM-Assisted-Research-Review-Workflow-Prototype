@@ -1,0 +1,109 @@
+{
+  "level": "L2",
+  "category": "Review Criteria Ambiguity",
+  "family": "Business process",
+  "actions": [
+    "Clarify criterion with research and policy owners",
+    "Document authoritative evidence",
+    "Add a checkable decision node"
+  ],
+  "corrective_action": "Define authoritative version before revising the research packet; preserve conflict detection in regression.",
+  "owner": "Synthetic policy owner",
+  "trace": [
+    {
+      "ids": [
+        "9010bf8cd896e3af",
+        "e32d4799760fc125",
+        "642038f07d6ca48f",
+        "8d9499fd5b10d334"
+      ],
+      "stage": "retrieval"
+    },
+    {
+      "ids": [
+        "9010bf8cd896e3af",
+        "e32d4799760fc125",
+        "642038f07d6ca48f",
+        "8d9499fd5b10d334"
+      ],
+      "stage": "evidence_selection"
+    },
+    {
+      "claim_ids": [
+        "C2-E1",
+        "C2-E2",
+        "C2-E3",
+        "C2-E4"
+      ],
+      "stage": "analysis"
+    },
+    {
+      "basis": "conservative rule result; human interpretation required",
+      "decision": "revise",
+      "evidence_ids": [
+        "9010bf8cd896e3af",
+        "e32d4799760fc125",
+        "642038f07d6ca48f",
+        "8d9499fd5b10d334"
+      ],
+      "stage": "recommendation",
+      "text": "Resolve inconsistent structured values or units before approval."
+    },
+    {
+      "stage": "human_review",
+      "accountable_owner": "Synthetic decision owner",
+      "action": "final",
+      "decision": "revise",
+      "decision_rights": "Human decision owner finalizes prototype review disposition; no study authorization",
+      "finding": "C2",
+      "override": false,
+      "reason": "Reconcile the conflicting retention records.",
+      "reviewer": "Synthetic decision owner",
+      "revision": 1,
+      "role": "decision_owner",
+      "timestamp": "2026-09-29T11:59:13.174416+00:00"
+    },
+    {
+      "stage": "human_review",
+      "action": "rca",
+      "ai_error": false,
+      "category": "Review Criteria Ambiguity",
+      "corrective_action": "Define authoritative version before revising the research packet; preserve conflict detection in regression.",
+      "finding": "C2",
+      "first_divergence": "criteria",
+      "observed_failure": "Synthetic draft and register disagree on retention duration.",
+      "responsible_component": "Synthetic policy owner",
+      "reviewer": "Synthetic policy reviewer",
+      "revision": 2,
+      "root_cause": "Packet does not specify which version has authority over the other.",
+      "timestamp": "2026-09-29T11:59:13.178656+00:00",
+      "validated": true,
+      "validation_evidence": "Synthetic reviewer inspected experiment.csv row 3 (90 days) and approval.json $.facts[0] (30 days); no evidence of an AI error."
+    }
+  ],
+  "validation_evidence": "Synthetic reviewer inspected experiment.csv row 3 (90 days) and approval.json $.facts[0] (30 days); no evidence of an AI error.",
+  "status": "proposed; human review required",
+  "auto_applied": false,
+  "local_ticket": {
+    "title": "Review Criteria Ambiguity: C2",
+    "acceptance_criteria": [
+      "Define authoritative version before revising the research packet; preserve conflict detection in regression.",
+      "Pass the frozen regression case and existing test suite"
+    ],
+    "external_ticket_created": false
+  },
+  "configuration_proposal": {
+    "target_component": "Synthetic policy owner",
+    "proposed_changes": [
+      "Clarify criterion with research and policy owners",
+      "Document authoritative evidence",
+      "Add a checkable decision node"
+    ],
+    "required_checks": [
+      "Compare baseline and candidate on frozen cases",
+      "Review high-impact cases with a human",
+      "Reject candidate if any required regression fails"
+    ],
+    "executable": false
+  }
+}

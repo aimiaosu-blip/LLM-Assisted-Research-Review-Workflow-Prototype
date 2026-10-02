@@ -14,3 +14,5 @@ jobs:
       - run: python -m unittest discover -s tests -v
       - run: python -m reviewflow run --out runs/ci
       - run: python -m reviewflow verify --out runs/ci
+      - run: python demo/run_v4.py --out runs/v4-ci
+      - run: python -m reviewflow retest docs/examples/v4/regression/retention.json

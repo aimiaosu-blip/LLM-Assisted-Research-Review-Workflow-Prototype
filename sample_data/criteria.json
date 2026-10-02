@@ -9,13 +9,15 @@
     "id": "C2",
     "title": "Retention consistency",
     "query": "retention_days recordings retained deleted",
-    "fact_key": "retention_days"
+    "fact_key": "retention_days",
+    "impact": "high"
   },
   {
     "id": "C3",
     "title": "Consent readiness",
     "query": "consent approval pending",
-    "fact_key": "consent_status"
+    "fact_key": "consent_status",
+    "impact": "high"
   },
   {
     "id": "C4",

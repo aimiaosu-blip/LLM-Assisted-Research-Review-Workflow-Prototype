@@ -45,6 +45,13 @@ def state(db):
     data = copy.deepcopy(log[0]['snapshot'])
     for event in log[1:]:
         finding = next(f for f in data['findings'] if f['id'] == event['finding'])
+        if event['action'] in {'support','final','rca'}:
+            finding['revision'] = event['revision']
+            finding['trace'].append(dict(stage='human_review', **event))
+            if event['action']=='support': finding['support_reviews'][event['claim']] = event
+            elif event['action']=='final': finding['final_decision'] = event
+            else: finding['rca'].append(event)
+            continue
         finding.update(status={'approve':'approved','reject':'rejected','revise':'revised'}[event['action']], revision=event['revision'], note=event['note'], reviewer=event['reviewer'])
         if event['action'] == 'revise':
             finding['suggestion'] = event['replacement']
@@ -63,6 +70,8 @@ def decide(out, finding_id, action, reviewer, note, expected_revision, replaceme
         finding = next((f for f in data['findings'] if f['id'] == finding_id), None)
         if finding is None:
             raise ValueError('Unknown finding')
+        if finding.get('final_decision'):
+            raise ValueError('Final decision already recorded')
         if finding['revision'] != expected_revision:
             raise ValueError('Stale revision: reload the dashboard')
         if finding['status'] in {'approved','rejected'}:

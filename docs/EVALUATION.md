@@ -19,3 +19,11 @@ The fixtures are designed with known cases, so passing them does not estimate re
 
 ## Next evaluation to conduct personally
 Create at least 10 new synthetic review packets not copied from the four bundled cases. Annotate expected evidence and issue types before running. Track retrieved gold evidence/top-k, false flags, missed contradictions, unsupported LLM suggestions and time to a justified decision. Preserve errors, model names and configurations, and avoid reporting quality percentages until the denominator and labeling protocol are clear.
+
+## V4 validation (local)
+
+34 standard-library tests pass on Python 3.9.6, including the original 21 tests. New checks cover decision rights, required override rationale, finality, unresolved-evidence approval prevention, missing/false semantic support, stale updates, human disagreement, zero denominators, failed repeat scoring, L0-L2 feedback and explicit regression admission. Fault injection removes selected evidence: replay fails, then passes with the intact implementation.
+
+The synthetic V4 CLI demo, audit verification and frozen regression replay were executed. The upgraded HTML was opened and inspected. CI now also runs the V4 demo and committed regression fixture. Remote V4 CI status must be checked on the upgrade PR; the earlier CI link above applies only to the original baseline.
+
+No live LLM inference, reviewer study, production rollout, semantic judge calibration or measured efficiency improvement has been conducted. Demo elapsed seconds are scripted timings, not human performance measurements.

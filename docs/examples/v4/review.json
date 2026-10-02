@@ -1,0 +1,1106 @@
+{
+  "chunks": [
+    {
+      "fact_key": "retention_days",
+      "format": "json",
+      "id": "9010bf8cd896e3af",
+      "location": "$.facts[0]",
+      "original_source": "approval.json",
+      "owner": "Synthetic Review Board",
+      "page": null,
+      "section": null,
+      "sha256": "4a3972b4f02e9cbb1468b105c311e7c127ba6c872a2cec3511906b944ab98e96",
+      "source": "approval.json",
+      "synthetic": true,
+      "text": "{\"fact_key\": \"retention_days\", \"note\": \"SYNTHETIC approved retention limit\", \"unit\": \"days\", \"value\": 30}",
+      "title": "Synthetic approval register",
+      "unit": "days",
+      "value": 30,
+      "version": "2"
+    },
+    {
+      "fact_key": "consent_status",
+      "format": "json",
+      "id": "33865d5962911e11",
+      "location": "$.facts[1]",
+      "original_source": "approval.json",
+      "owner": "Synthetic Review Board",
+      "page": null,
+      "section": null,
+      "sha256": "4a3972b4f02e9cbb1468b105c311e7c127ba6c872a2cec3511906b944ab98e96",
+      "source": "approval.json",
+      "synthetic": true,
+      "text": "{\"fact_key\": \"consent_status\", \"note\": \"SYNTHETIC approval not granted\", \"unit\": \"status\", \"value\": \"pending\"}",
+      "title": "Synthetic approval register",
+      "unit": "status",
+      "value": "pending",
+      "version": "2"
+    },
+    {
+      "fact_key": null,
+      "format": "txt",
+      "id": "05e95c2afbd01eeb",
+      "location": "line:1",
+      "original_source": "ethics.txt",
+      "owner": "Synthetic Ethics Reviewer",
+      "page": null,
+      "section": null,
+      "sha256": "b5a84bcca5ab239071259933707b4cc27924cfb50fe8db96c884c701198c363a",
+      "source": "ethics.txt",
+      "text": "SYNTHETIC — Ethics memo",
+      "unit": null,
+      "value": null,
+      "version": "2"
+    },
+    {
+      "fact_key": null,
+      "format": "txt",
+      "id": "3bfdf114f92e65c3",
+      "location": "line:2",
+      "original_source": "ethics.txt",
+      "owner": "Synthetic Ethics Reviewer",
+      "page": null,
+      "section": null,
+      "sha256": "b5a84bcca5ab239071259933707b4cc27924cfb50fe8db96c884c701198c363a",
+      "source": "ethics.txt",
+      "text": "owner: Synthetic Ethics Reviewer",
+      "unit": null,
+      "value": null,
+      "version": "2"
+    },
+    {
+      "fact_key": null,
+      "format": "txt",
+      "id": "e295852ad1f056cb",
+      "location": "line:3",
+      "original_source": "ethics.txt",
+      "owner": "Synthetic Ethics Reviewer",
+      "page": null,
+      "section": null,
+      "sha256": "b5a84bcca5ab239071259933707b4cc27924cfb50fe8db96c884c701198c363a",
+      "source": "ethics.txt",
+      "text": "version: 2",
+      "unit": null,
+      "value": null,
+      "version": "2"
+    },
+    {
+      "fact_key": null,
+      "format": "txt",
+      "id": "d9975260f566e9df",
+      "location": "line:5",
+      "original_source": "ethics.txt",
+      "owner": "Synthetic Ethics Reviewer",
+      "page": null,
+      "section": null,
+      "sha256": "b5a84bcca5ab239071259933707b4cc27924cfb50fe8db96c884c701198c363a",
+      "source": "ethics.txt",
+      "text": "Consent is pending approval; recruitment must not begin yet.",
+      "unit": null,
+      "value": null,
+      "version": "2"
+    },
+    {
+      "fact_key": null,
+      "format": "txt",
+      "id": "8d9499fd5b10d334",
+      "location": "line:6",
+      "original_source": "ethics.txt",
+      "owner": "Synthetic Ethics Reviewer",
+      "page": null,
+      "section": null,
+      "sha256": "b5a84bcca5ab239071259933707b4cc27924cfb50fe8db96c884c701198c363a",
+      "source": "ethics.txt",
+      "text": "Raw recordings must be deleted after 30 days under this fictional study policy.",
+      "unit": null,
+      "value": null,
+      "version": "2"
+    },
+    {
+      "fact_key": null,
+      "format": "txt",
+      "id": "15041d5cc7d9fe7b",
+      "location": "line:7",
+      "original_source": "ethics.txt",
+      "owner": "Synthetic Ethics Reviewer",
+      "page": null,
+      "section": null,
+      "sha256": "b5a84bcca5ab239071259933707b4cc27924cfb50fe8db96c884c701198c363a",
+      "source": "ethics.txt",
+      "text": "No cybersecurity assessment is included in this memo.",
+      "unit": null,
+      "value": null,
+      "version": "2"
+    },
+    {
+      "fact_key": "sample_size",
+      "format": "csv",
+      "id": "3915bf0a7b8fca5d",
+      "location": "row:2",
+      "original_source": "experiment.csv",
+      "page": null,
+      "section": null,
+      "sha256": "3b60431ad52cf65b319098ccfccbddcc6222e5631335e7355420725cbb46afb1",
+      "source": "experiment.csv",
+      "text": "{\"fact_key\": \"sample_size\", \"note\": \"SYNTHETIC pilot plan\", \"unit\": \"participants\", \"value\": \"24\"}",
+      "unit": "participants",
+      "value": "24"
+    },
+    {
+      "fact_key": "retention_days",
+      "format": "csv",
+      "id": "e32d4799760fc125",
+      "location": "row:3",
+      "original_source": "experiment.csv",
+      "page": null,
+      "section": null,
+      "sha256": "3b60431ad52cf65b319098ccfccbddcc6222e5631335e7355420725cbb46afb1",
+      "source": "experiment.csv",
+      "text": "{\"fact_key\": \"retention_days\", \"note\": \"SYNTHETIC draft protocol\", \"unit\": \"days\", \"value\": \"90\"}",
+      "unit": "days",
+      "value": "90"
+    },
+    {
+      "fact_key": null,
+      "format": "md",
+      "id": "11e2c8a93b0c7e56",
+      "location": "line:1",
+      "original_source": "proposal.md",
+      "owner": "Synthetic Research Team",
+      "page": null,
+      "section": null,
+      "sha256": "900fa586219b9506bc8b603ab8b64b9a37752ee53129d645c74a59141330a8c7",
+      "source": "proposal.md",
+      "text": "# SYNTHETIC — Research proposal",
+      "unit": null,
+      "value": null,
+      "version": "1"
+    },
+    {
+      "fact_key": null,
+      "format": "md",
+      "id": "01cadfa02af65ce8",
+      "location": "line:2",
+      "original_source": "proposal.md",
+      "owner": "Synthetic Research Team",
+      "page": null,
+      "section": null,
+      "sha256": "900fa586219b9506bc8b603ab8b64b9a37752ee53129d645c74a59141330a8c7",
+      "source": "proposal.md",
+      "text": "owner: Synthetic Research Team",
+      "unit": null,
+      "value": null,
+      "version": "1"
+    },
+    {
+      "fact_key": null,
+      "format": "md",
+      "id": "2dfe89fe68b1048a",
+      "location": "line:3",
+      "original_source": "proposal.md",
+      "owner": "Synthetic Research Team",
+      "page": null,
+      "section": null,
+      "sha256": "900fa586219b9506bc8b603ab8b64b9a37752ee53129d645c74a59141330a8c7",
+      "source": "proposal.md",
+      "text": "version: 1",
+      "unit": null,
+      "value": null,
+      "version": "1"
+    },
+    {
+      "fact_key": null,
+      "format": "md",
+      "id": "f933724edd027823",
+      "location": "line:5",
+      "original_source": "proposal.md",
+      "owner": "Synthetic Research Team",
+      "page": null,
+      "section": null,
+      "sha256": "900fa586219b9506bc8b603ab8b64b9a37752ee53129d645c74a59141330a8c7",
+      "source": "proposal.md",
+      "text": "The robotics pilot evaluates task completion with 24 participants.",
+      "unit": null,
+      "value": null,
+      "version": "1"
+    },
+    {
+      "fact_key": null,
+      "format": "md",
+      "id": "642038f07d6ca48f",
+      "location": "line:6",
+      "original_source": "proposal.md",
+      "owner": "Synthetic Research Team",
+      "page": null,
+      "section": null,
+      "sha256": "900fa586219b9506bc8b603ab8b64b9a37752ee53129d645c74a59141330a8c7",
+      "source": "proposal.md",
+      "text": "Consent will be recorded before each session. Raw recordings are retained for 90 days.",
+      "unit": null,
+      "value": null,
+      "version": "1"
+    },
+    {
+      "fact_key": null,
+      "format": "md",
+      "id": "c769afce55d0fb8d",
+      "location": "line:7",
+      "original_source": "proposal.md",
+      "owner": "Synthetic Research Team",
+      "page": null,
+      "section": null,
+      "sha256": "900fa586219b9506bc8b603ab8b64b9a37752ee53129d645c74a59141330a8c7",
+      "source": "proposal.md",
+      "text": "This draft proposes publication after human research review.",
+      "unit": null,
+      "value": null,
+      "version": "1"
+    }
+  ],
+  "criteria": [
+    {
+      "fact_key": "sample_size",
+      "id": "C1",
+      "query": "participants sample_size pilot",
+      "title": "Participant sample"
+    },
+    {
+      "fact_key": "retention_days",
+      "id": "C2",
+      "impact": "high",
+      "query": "retention_days recordings retained deleted",
+      "title": "Retention consistency"
+    },
+    {
+      "fact_key": "consent_status",
+      "id": "C3",
+      "impact": "high",
+      "query": "consent approval pending",
+      "title": "Consent readiness"
+    },
+    {
+      "fact_key": "power_calculation",
+      "id": "C4",
+      "query": "statistical power calculation effect size",
+      "title": "Power calculation"
+    }
+  ],
+  "data_label": "SYNTHETIC V4 DEMO",
+  "documents": [
+    {
+      "format": "json",
+      "owner": "Synthetic Review Board",
+      "sha256": "4a3972b4f02e9cbb1468b105c311e7c127ba6c872a2cec3511906b944ab98e96",
+      "source": "approval.json",
+      "synthetic": true,
+      "title": "Synthetic approval register",
+      "version": "2"
+    },
+    {
+      "format": "txt",
+      "owner": "Synthetic Ethics Reviewer",
+      "sha256": "b5a84bcca5ab239071259933707b4cc27924cfb50fe8db96c884c701198c363a",
+      "source": "ethics.txt",
+      "version": "2"
+    },
+    {
+      "format": "csv",
+      "sha256": "3b60431ad52cf65b319098ccfccbddcc6222e5631335e7355420725cbb46afb1",
+      "source": "experiment.csv"
+    },
+    {
+      "format": "md",
+      "owner": "Synthetic Research Team",
+      "sha256": "900fa586219b9506bc8b603ab8b64b9a37752ee53129d645c74a59141330a8c7",
+      "source": "proposal.md",
+      "version": "1"
+    }
+  ],
+  "findings": [
+    {
+      "claims": [
+        {
+          "evidence_ids": [
+            "3915bf0a7b8fca5d"
+          ],
+          "id": "C1-E1",
+          "method": "extractive_identity",
+          "quote": "{\"fact_key\": \"sample_size\", \"note\": \"SYNTHETIC pilot plan\", \"unit\": \"participants\", \"value\": \"24\"}",
+          "support": "supported",
+          "text": "{\"fact_key\": \"sample_size\", \"note\": \"SYNTHETIC pilot plan\", \"unit\": \"participants\", \"value\": \"24\"}"
+        },
+        {
+          "evidence_ids": [
+            "f933724edd027823"
+          ],
+          "id": "C1-E2",
+          "method": "extractive_identity",
+          "quote": "The robotics pilot evaluates task completion with 24 participants.",
+          "support": "supported",
+          "text": "The robotics pilot evaluates task completion with 24 participants."
+        }
+      ],
+      "confidence": {
+        "kind": "uncalibrated triage heuristic, not probability",
+        "value": 0.6
+      },
+      "evidence": [
+        {
+          "fact_key": "sample_size",
+          "format": "csv",
+          "id": "3915bf0a7b8fca5d",
+          "location": "row:2",
+          "original_source": "experiment.csv",
+          "page": null,
+          "score": 2.0,
+          "section": null,
+          "sha256": "3b60431ad52cf65b319098ccfccbddcc6222e5631335e7355420725cbb46afb1",
+          "source": "experiment.csv",
+          "text": "{\"fact_key\": \"sample_size\", \"note\": \"SYNTHETIC pilot plan\", \"unit\": \"participants\", \"value\": \"24\"}",
+          "unit": "participants",
+          "value": "24"
+        },
+        {
+          "fact_key": null,
+          "format": "md",
+          "id": "f933724edd027823",
+          "location": "line:5",
+          "original_source": "proposal.md",
+          "owner": "Synthetic Research Team",
+          "page": null,
+          "score": 0.6667,
+          "section": null,
+          "sha256": "900fa586219b9506bc8b603ab8b64b9a37752ee53129d645c74a59141330a8c7",
+          "source": "proposal.md",
+          "text": "The robotics pilot evaluates task completion with 24 participants.",
+          "unit": null,
+          "value": null,
+          "version": "1"
+        }
+      ],
+      "fact_key": "sample_size",
+      "final_decision": {
+        "accountable_owner": "Synthetic decision owner",
+        "action": "final",
+        "decision": "approve",
+        "decision_rights": "Human decision owner finalizes prototype review disposition; no study authorization",
+        "finding": "C1",
+        "override": true,
+        "override_reason": "Human resolves the rule baseline review abstention; not an AI error.",
+        "reason": "Reviewed source evidence for the limited participant-count check.",
+        "reviewer": "Synthetic decision owner",
+        "revision": 1,
+        "role": "decision_owner",
+        "timestamp": "2026-09-29T11:59:13.169979+00:00"
+      },
+      "id": "C1",
+      "kind": "candidate",
+      "llm": null,
+      "note": "",
+      "query": "participants sample_size pilot",
+      "rca": [],
+      "recommendation": {
+        "basis": "conservative rule result; human interpretation required",
+        "decision": "review",
+        "evidence_ids": [
+          "3915bf0a7b8fca5d",
+          "f933724edd027823"
+        ],
+        "text": "Inspect the matched evidence and decide whether it satisfies the review criterion."
+      },
+      "retrieved_sources": [
+        {
+          "fact_key": "sample_size",
+          "format": "csv",
+          "id": "3915bf0a7b8fca5d",
+          "location": "row:2",
+          "original_source": "experiment.csv",
+          "page": null,
+          "section": null,
+          "sha256": "3b60431ad52cf65b319098ccfccbddcc6222e5631335e7355420725cbb46afb1",
+          "source": "experiment.csv",
+          "text": "{\"fact_key\": \"sample_size\", \"note\": \"SYNTHETIC pilot plan\", \"unit\": \"participants\", \"value\": \"24\"}",
+          "unit": "participants",
+          "value": "24"
+        },
+        {
+          "fact_key": null,
+          "format": "md",
+          "id": "f933724edd027823",
+          "location": "line:5",
+          "original_source": "proposal.md",
+          "owner": "Synthetic Research Team",
+          "page": null,
+          "score": 0.6667,
+          "section": null,
+          "sha256": "900fa586219b9506bc8b603ab8b64b9a37752ee53129d645c74a59141330a8c7",
+          "source": "proposal.md",
+          "text": "The robotics pilot evaluates task completion with 24 participants.",
+          "unit": null,
+          "value": null,
+          "version": "1"
+        }
+      ],
+      "revision": 1,
+      "routing": [
+        "human_final_decision_required"
+      ],
+      "status": "pending",
+      "suggestion": "Inspect the matched evidence and decide whether it satisfies the review criterion.",
+      "support_reviews": {},
+      "title": "Participant sample",
+      "trace": [
+        {
+          "ids": [
+            "3915bf0a7b8fca5d",
+            "f933724edd027823"
+          ],
+          "stage": "retrieval"
+        },
+        {
+          "ids": [
+            "3915bf0a7b8fca5d",
+            "f933724edd027823"
+          ],
+          "stage": "evidence_selection"
+        },
+        {
+          "claim_ids": [
+            "C1-E1",
+            "C1-E2"
+          ],
+          "stage": "analysis"
+        },
+        {
+          "basis": "conservative rule result; human interpretation required",
+          "decision": "review",
+          "evidence_ids": [
+            "3915bf0a7b8fca5d",
+            "f933724edd027823"
+          ],
+          "stage": "recommendation",
+          "text": "Inspect the matched evidence and decide whether it satisfies the review criterion."
+        },
+        {
+          "stage": "human_review",
+          "accountable_owner": "Synthetic decision owner",
+          "action": "final",
+          "decision": "approve",
+          "decision_rights": "Human decision owner finalizes prototype review disposition; no study authorization",
+          "finding": "C1",
+          "override": true,
+          "override_reason": "Human resolves the rule baseline review abstention; not an AI error.",
+          "reason": "Reviewed source evidence for the limited participant-count check.",
+          "reviewer": "Synthetic decision owner",
+          "revision": 1,
+          "role": "decision_owner",
+          "timestamp": "2026-09-29T11:59:13.169979+00:00"
+        }
+      ]
+    },
+    {
+      "claims": [
+        {
+          "evidence_ids": [
+            "9010bf8cd896e3af"
+          ],
+          "id": "C2-E1",
+          "method": "extractive_identity",
+          "quote": "{\"fact_key\": \"retention_days\", \"note\": \"SYNTHETIC approved retention limit\", \"unit\": \"days\", \"value\": 30}",
+          "support": "supported",
+          "text": "{\"fact_key\": \"retention_days\", \"note\": \"SYNTHETIC approved retention limit\", \"unit\": \"days\", \"value\": 30}"
+        },
+        {
+          "evidence_ids": [
+            "e32d4799760fc125"
+          ],
+          "id": "C2-E2",
+          "method": "extractive_identity",
+          "quote": "{\"fact_key\": \"retention_days\", \"note\": \"SYNTHETIC draft protocol\", \"unit\": \"days\", \"value\": \"90\"}",
+          "support": "supported",
+          "text": "{\"fact_key\": \"retention_days\", \"note\": \"SYNTHETIC draft protocol\", \"unit\": \"days\", \"value\": \"90\"}"
+        },
+        {
+          "evidence_ids": [
+            "642038f07d6ca48f"
+          ],
+          "id": "C2-E3",
+          "method": "extractive_identity",
+          "quote": "Consent will be recorded before each session. Raw recordings are retained for 90 days.",
+          "support": "supported",
+          "text": "Consent will be recorded before each session. Raw recordings are retained for 90 days."
+        },
+        {
+          "evidence_ids": [
+            "8d9499fd5b10d334"
+          ],
+          "id": "C2-E4",
+          "method": "extractive_identity",
+          "quote": "Raw recordings must be deleted after 30 days under this fictional study policy.",
+          "support": "supported",
+          "text": "Raw recordings must be deleted after 30 days under this fictional study policy."
+        }
+      ],
+      "confidence": {
+        "kind": "uncalibrated triage heuristic, not probability",
+        "value": 0.3
+      },
+      "evidence": [
+        {
+          "fact_key": "retention_days",
+          "format": "json",
+          "id": "9010bf8cd896e3af",
+          "location": "$.facts[0]",
+          "original_source": "approval.json",
+          "owner": "Synthetic Review Board",
+          "page": null,
+          "section": null,
+          "sha256": "4a3972b4f02e9cbb1468b105c311e7c127ba6c872a2cec3511906b944ab98e96",
+          "source": "approval.json",
+          "synthetic": true,
+          "text": "{\"fact_key\": \"retention_days\", \"note\": \"SYNTHETIC approved retention limit\", \"unit\": \"days\", \"value\": 30}",
+          "title": "Synthetic approval register",
+          "unit": "days",
+          "value": 30,
+          "version": "2"
+        },
+        {
+          "fact_key": "retention_days",
+          "format": "csv",
+          "id": "e32d4799760fc125",
+          "location": "row:3",
+          "original_source": "experiment.csv",
+          "page": null,
+          "section": null,
+          "sha256": "3b60431ad52cf65b319098ccfccbddcc6222e5631335e7355420725cbb46afb1",
+          "source": "experiment.csv",
+          "text": "{\"fact_key\": \"retention_days\", \"note\": \"SYNTHETIC draft protocol\", \"unit\": \"days\", \"value\": \"90\"}",
+          "unit": "days",
+          "value": "90"
+        },
+        {
+          "fact_key": null,
+          "format": "md",
+          "id": "642038f07d6ca48f",
+          "location": "line:6",
+          "original_source": "proposal.md",
+          "owner": "Synthetic Research Team",
+          "page": null,
+          "score": 0.5,
+          "section": null,
+          "sha256": "900fa586219b9506bc8b603ab8b64b9a37752ee53129d645c74a59141330a8c7",
+          "source": "proposal.md",
+          "text": "Consent will be recorded before each session. Raw recordings are retained for 90 days.",
+          "unit": null,
+          "value": null,
+          "version": "1"
+        },
+        {
+          "fact_key": null,
+          "format": "txt",
+          "id": "8d9499fd5b10d334",
+          "location": "line:6",
+          "original_source": "ethics.txt",
+          "owner": "Synthetic Ethics Reviewer",
+          "page": null,
+          "score": 0.5,
+          "section": null,
+          "sha256": "b5a84bcca5ab239071259933707b4cc27924cfb50fe8db96c884c701198c363a",
+          "source": "ethics.txt",
+          "text": "Raw recordings must be deleted after 30 days under this fictional study policy.",
+          "unit": null,
+          "value": null,
+          "version": "2"
+        }
+      ],
+      "fact_key": "retention_days",
+      "final_decision": {
+        "accountable_owner": "Synthetic decision owner",
+        "action": "final",
+        "decision": "revise",
+        "decision_rights": "Human decision owner finalizes prototype review disposition; no study authorization",
+        "finding": "C2",
+        "override": false,
+        "reason": "Reconcile the conflicting retention records.",
+        "reviewer": "Synthetic decision owner",
+        "revision": 1,
+        "role": "decision_owner",
+        "timestamp": "2026-09-29T11:59:13.174416+00:00"
+      },
+      "id": "C2",
+      "impact": "high",
+      "kind": "conflict",
+      "llm": null,
+      "note": "",
+      "query": "retention_days recordings retained deleted",
+      "rca": [
+        {
+          "action": "rca",
+          "ai_error": false,
+          "category": "Review Criteria Ambiguity",
+          "corrective_action": "Define authoritative version before revising the research packet; preserve conflict detection in regression.",
+          "finding": "C2",
+          "first_divergence": "criteria",
+          "observed_failure": "Synthetic draft and register disagree on retention duration.",
+          "responsible_component": "Synthetic policy owner",
+          "reviewer": "Synthetic policy reviewer",
+          "revision": 2,
+          "root_cause": "Packet does not specify which version has authority over the other.",
+          "timestamp": "2026-09-29T11:59:13.178656+00:00",
+          "validated": true,
+          "validation_evidence": "Synthetic reviewer inspected experiment.csv row 3 (90 days) and approval.json $.facts[0] (30 days); no evidence of an AI error."
+        }
+      ],
+      "recommendation": {
+        "basis": "conservative rule result; human interpretation required",
+        "decision": "revise",
+        "evidence_ids": [
+          "9010bf8cd896e3af",
+          "e32d4799760fc125",
+          "642038f07d6ca48f",
+          "8d9499fd5b10d334"
+        ],
+        "text": "Resolve inconsistent structured values or units before approval."
+      },
+      "retrieved_sources": [
+        {
+          "fact_key": "retention_days",
+          "format": "json",
+          "id": "9010bf8cd896e3af",
+          "location": "$.facts[0]",
+          "original_source": "approval.json",
+          "owner": "Synthetic Review Board",
+          "page": null,
+          "section": null,
+          "sha256": "4a3972b4f02e9cbb1468b105c311e7c127ba6c872a2cec3511906b944ab98e96",
+          "source": "approval.json",
+          "synthetic": true,
+          "text": "{\"fact_key\": \"retention_days\", \"note\": \"SYNTHETIC approved retention limit\", \"unit\": \"days\", \"value\": 30}",
+          "title": "Synthetic approval register",
+          "unit": "days",
+          "value": 30,
+          "version": "2"
+        },
+        {
+          "fact_key": "retention_days",
+          "format": "csv",
+          "id": "e32d4799760fc125",
+          "location": "row:3",
+          "original_source": "experiment.csv",
+          "page": null,
+          "section": null,
+          "sha256": "3b60431ad52cf65b319098ccfccbddcc6222e5631335e7355420725cbb46afb1",
+          "source": "experiment.csv",
+          "text": "{\"fact_key\": \"retention_days\", \"note\": \"SYNTHETIC draft protocol\", \"unit\": \"days\", \"value\": \"90\"}",
+          "unit": "days",
+          "value": "90"
+        },
+        {
+          "fact_key": null,
+          "format": "md",
+          "id": "642038f07d6ca48f",
+          "location": "line:6",
+          "original_source": "proposal.md",
+          "owner": "Synthetic Research Team",
+          "page": null,
+          "score": 0.5,
+          "section": null,
+          "sha256": "900fa586219b9506bc8b603ab8b64b9a37752ee53129d645c74a59141330a8c7",
+          "source": "proposal.md",
+          "text": "Consent will be recorded before each session. Raw recordings are retained for 90 days.",
+          "unit": null,
+          "value": null,
+          "version": "1"
+        },
+        {
+          "fact_key": null,
+          "format": "txt",
+          "id": "8d9499fd5b10d334",
+          "location": "line:6",
+          "original_source": "ethics.txt",
+          "owner": "Synthetic Ethics Reviewer",
+          "page": null,
+          "score": 0.5,
+          "section": null,
+          "sha256": "b5a84bcca5ab239071259933707b4cc27924cfb50fe8db96c884c701198c363a",
+          "source": "ethics.txt",
+          "text": "Raw recordings must be deleted after 30 days under this fictional study policy.",
+          "unit": null,
+          "value": null,
+          "version": "2"
+        }
+      ],
+      "revision": 2,
+      "routing": [
+        "human_final_decision_required",
+        "low_confidence",
+        "evidence_conflict",
+        "high_impact"
+      ],
+      "status": "pending",
+      "suggestion": "Resolve inconsistent structured values or units before approval.",
+      "support_reviews": {},
+      "title": "Retention consistency",
+      "trace": [
+        {
+          "ids": [
+            "9010bf8cd896e3af",
+            "e32d4799760fc125",
+            "642038f07d6ca48f",
+            "8d9499fd5b10d334"
+          ],
+          "stage": "retrieval"
+        },
+        {
+          "ids": [
+            "9010bf8cd896e3af",
+            "e32d4799760fc125",
+            "642038f07d6ca48f",
+            "8d9499fd5b10d334"
+          ],
+          "stage": "evidence_selection"
+        },
+        {
+          "claim_ids": [
+            "C2-E1",
+            "C2-E2",
+            "C2-E3",
+            "C2-E4"
+          ],
+          "stage": "analysis"
+        },
+        {
+          "basis": "conservative rule result; human interpretation required",
+          "decision": "revise",
+          "evidence_ids": [
+            "9010bf8cd896e3af",
+            "e32d4799760fc125",
+            "642038f07d6ca48f",
+            "8d9499fd5b10d334"
+          ],
+          "stage": "recommendation",
+          "text": "Resolve inconsistent structured values or units before approval."
+        },
+        {
+          "stage": "human_review",
+          "accountable_owner": "Synthetic decision owner",
+          "action": "final",
+          "decision": "revise",
+          "decision_rights": "Human decision owner finalizes prototype review disposition; no study authorization",
+          "finding": "C2",
+          "override": false,
+          "reason": "Reconcile the conflicting retention records.",
+          "reviewer": "Synthetic decision owner",
+          "revision": 1,
+          "role": "decision_owner",
+          "timestamp": "2026-09-29T11:59:13.174416+00:00"
+        },
+        {
+          "stage": "human_review",
+          "action": "rca",
+          "ai_error": false,
+          "category": "Review Criteria Ambiguity",
+          "corrective_action": "Define authoritative version before revising the research packet; preserve conflict detection in regression.",
+          "finding": "C2",
+          "first_divergence": "criteria",
+          "observed_failure": "Synthetic draft and register disagree on retention duration.",
+          "responsible_component": "Synthetic policy owner",
+          "reviewer": "Synthetic policy reviewer",
+          "revision": 2,
+          "root_cause": "Packet does not specify which version has authority over the other.",
+          "timestamp": "2026-09-29T11:59:13.178656+00:00",
+          "validated": true,
+          "validation_evidence": "Synthetic reviewer inspected experiment.csv row 3 (90 days) and approval.json $.facts[0] (30 days); no evidence of an AI error."
+        }
+      ]
+    },
+    {
+      "claims": [
+        {
+          "evidence_ids": [
+            "33865d5962911e11"
+          ],
+          "id": "C3-E1",
+          "method": "extractive_identity",
+          "quote": "{\"fact_key\": \"consent_status\", \"note\": \"SYNTHETIC approval not granted\", \"unit\": \"status\", \"value\": \"pending\"}",
+          "support": "supported",
+          "text": "{\"fact_key\": \"consent_status\", \"note\": \"SYNTHETIC approval not granted\", \"unit\": \"status\", \"value\": \"pending\"}"
+        },
+        {
+          "evidence_ids": [
+            "d9975260f566e9df"
+          ],
+          "id": "C3-E2",
+          "method": "extractive_identity",
+          "quote": "Consent is pending approval; recruitment must not begin yet.",
+          "support": "supported",
+          "text": "Consent is pending approval; recruitment must not begin yet."
+        },
+        {
+          "evidence_ids": [
+            "642038f07d6ca48f"
+          ],
+          "id": "C3-E3",
+          "method": "extractive_identity",
+          "quote": "Consent will be recorded before each session. Raw recordings are retained for 90 days.",
+          "support": "supported",
+          "text": "Consent will be recorded before each session. Raw recordings are retained for 90 days."
+        }
+      ],
+      "confidence": {
+        "kind": "uncalibrated triage heuristic, not probability",
+        "value": 0.6
+      },
+      "evidence": [
+        {
+          "fact_key": "consent_status",
+          "format": "json",
+          "id": "33865d5962911e11",
+          "location": "$.facts[1]",
+          "original_source": "approval.json",
+          "owner": "Synthetic Review Board",
+          "page": null,
+          "score": 1.6667,
+          "section": null,
+          "sha256": "4a3972b4f02e9cbb1468b105c311e7c127ba6c872a2cec3511906b944ab98e96",
+          "source": "approval.json",
+          "synthetic": true,
+          "text": "{\"fact_key\": \"consent_status\", \"note\": \"SYNTHETIC approval not granted\", \"unit\": \"status\", \"value\": \"pending\"}",
+          "title": "Synthetic approval register",
+          "unit": "status",
+          "value": "pending",
+          "version": "2"
+        },
+        {
+          "fact_key": null,
+          "format": "txt",
+          "id": "d9975260f566e9df",
+          "location": "line:5",
+          "original_source": "ethics.txt",
+          "owner": "Synthetic Ethics Reviewer",
+          "page": null,
+          "score": 1.0,
+          "section": null,
+          "sha256": "b5a84bcca5ab239071259933707b4cc27924cfb50fe8db96c884c701198c363a",
+          "source": "ethics.txt",
+          "text": "Consent is pending approval; recruitment must not begin yet.",
+          "unit": null,
+          "value": null,
+          "version": "2"
+        },
+        {
+          "fact_key": null,
+          "format": "md",
+          "id": "642038f07d6ca48f",
+          "location": "line:6",
+          "original_source": "proposal.md",
+          "owner": "Synthetic Research Team",
+          "page": null,
+          "score": 0.3333,
+          "section": null,
+          "sha256": "900fa586219b9506bc8b603ab8b64b9a37752ee53129d645c74a59141330a8c7",
+          "source": "proposal.md",
+          "text": "Consent will be recorded before each session. Raw recordings are retained for 90 days.",
+          "unit": null,
+          "value": null,
+          "version": "1"
+        }
+      ],
+      "fact_key": "consent_status",
+      "final_decision": null,
+      "id": "C3",
+      "impact": "high",
+      "kind": "blocked",
+      "llm": null,
+      "note": "",
+      "query": "consent approval pending",
+      "rca": [],
+      "recommendation": {
+        "basis": "conservative rule result; human interpretation required",
+        "decision": "revise",
+        "evidence_ids": [
+          "33865d5962911e11",
+          "d9975260f566e9df",
+          "642038f07d6ca48f"
+        ],
+        "text": "Obtain the outstanding approval or documentation; do not auto-approve."
+      },
+      "retrieved_sources": [
+        {
+          "fact_key": "consent_status",
+          "format": "json",
+          "id": "33865d5962911e11",
+          "location": "$.facts[1]",
+          "original_source": "approval.json",
+          "owner": "Synthetic Review Board",
+          "page": null,
+          "section": null,
+          "sha256": "4a3972b4f02e9cbb1468b105c311e7c127ba6c872a2cec3511906b944ab98e96",
+          "source": "approval.json",
+          "synthetic": true,
+          "text": "{\"fact_key\": \"consent_status\", \"note\": \"SYNTHETIC approval not granted\", \"unit\": \"status\", \"value\": \"pending\"}",
+          "title": "Synthetic approval register",
+          "unit": "status",
+          "value": "pending",
+          "version": "2"
+        },
+        {
+          "fact_key": null,
+          "format": "txt",
+          "id": "d9975260f566e9df",
+          "location": "line:5",
+          "original_source": "ethics.txt",
+          "owner": "Synthetic Ethics Reviewer",
+          "page": null,
+          "score": 1.0,
+          "section": null,
+          "sha256": "b5a84bcca5ab239071259933707b4cc27924cfb50fe8db96c884c701198c363a",
+          "source": "ethics.txt",
+          "text": "Consent is pending approval; recruitment must not begin yet.",
+          "unit": null,
+          "value": null,
+          "version": "2"
+        },
+        {
+          "fact_key": null,
+          "format": "md",
+          "id": "642038f07d6ca48f",
+          "location": "line:6",
+          "original_source": "proposal.md",
+          "owner": "Synthetic Research Team",
+          "page": null,
+          "score": 0.3333,
+          "section": null,
+          "sha256": "900fa586219b9506bc8b603ab8b64b9a37752ee53129d645c74a59141330a8c7",
+          "source": "proposal.md",
+          "text": "Consent will be recorded before each session. Raw recordings are retained for 90 days.",
+          "unit": null,
+          "value": null,
+          "version": "1"
+        }
+      ],
+      "revision": 0,
+      "routing": [
+        "human_final_decision_required",
+        "high_impact"
+      ],
+      "status": "pending",
+      "suggestion": "Obtain the outstanding approval or documentation; do not auto-approve.",
+      "support_reviews": {},
+      "title": "Consent readiness",
+      "trace": [
+        {
+          "ids": [
+            "33865d5962911e11",
+            "d9975260f566e9df",
+            "642038f07d6ca48f"
+          ],
+          "stage": "retrieval"
+        },
+        {
+          "ids": [
+            "33865d5962911e11",
+            "d9975260f566e9df",
+            "642038f07d6ca48f"
+          ],
+          "stage": "evidence_selection"
+        },
+        {
+          "claim_ids": [
+            "C3-E1",
+            "C3-E2",
+            "C3-E3"
+          ],
+          "stage": "analysis"
+        },
+        {
+          "basis": "conservative rule result; human interpretation required",
+          "decision": "revise",
+          "evidence_ids": [
+            "33865d5962911e11",
+            "d9975260f566e9df",
+            "642038f07d6ca48f"
+          ],
+          "stage": "recommendation",
+          "text": "Obtain the outstanding approval or documentation; do not auto-approve."
+        }
+      ]
+    },
+    {
+      "claims": [],
+      "confidence": {
+        "kind": "uncalibrated triage heuristic, not probability",
+        "value": 0.3
+      },
+      "evidence": [],
+      "fact_key": "power_calculation",
+      "final_decision": null,
+      "id": "C4",
+      "kind": "missing",
+      "llm": null,
+      "note": "",
+      "query": "statistical power calculation effect size",
+      "rca": [],
+      "recommendation": {
+        "basis": "conservative rule result; human interpretation required",
+        "decision": "revise",
+        "evidence_ids": [],
+        "text": "Request evidence. No matching passage was retrieved; this is not proof of absence."
+      },
+      "retrieved_sources": [],
+      "revision": 0,
+      "routing": [
+        "human_final_decision_required",
+        "low_confidence",
+        "insufficient_evidence"
+      ],
+      "status": "pending",
+      "suggestion": "Request evidence. No matching passage was retrieved; this is not proof of absence.",
+      "support_reviews": {},
+      "title": "Power calculation",
+      "trace": [
+        {
+          "ids": [],
+          "stage": "retrieval"
+        },
+        {
+          "ids": [],
+          "stage": "evidence_selection"
+        },
+        {
+          "claim_ids": [],
+          "stage": "analysis"
+        },
+        {
+          "basis": "conservative rule result; human interpretation required",
+          "decision": "revise",
+          "evidence_ids": [],
+          "stage": "recommendation",
+          "text": "Request evidence. No matching passage was retrieved; this is not proof of absence."
+        }
+      ]
+    }
+  ],
+  "mode": "deterministic rules (not an LLM)",
+  "model_errors": [],
+  "repeat_recommendations": [
+    {
+      "C1": "Inspect the matched evidence and decide whether it satisfies the review criterion.",
+      "C2": "Resolve inconsistent structured values or units before approval.",
+      "C3": "Obtain the outstanding approval or documentation; do not auto-approve.",
+      "C4": "Request evidence. No matching passage was retrieved; this is not proof of absence."
+    },
+    {
+      "C1": "Inspect the matched evidence and decide whether it satisfies the review criterion.",
+      "C2": "Resolve inconsistent structured values or units before approval.",
+      "C3": "Obtain the outstanding approval or documentation; do not auto-approve.",
+      "C4": "Request evidence. No matching passage was retrieved; this is not proof of absence."
+    },
+    {
+      "C1": "Inspect the matched evidence and decide whether it satisfies the review criterion.",
+      "C2": "Resolve inconsistent structured values or units before approval.",
+      "C3": "Obtain the outstanding approval or documentation; do not auto-approve.",
+      "C4": "Request evidence. No matching passage was retrieved; this is not proof of absence."
+    }
+  ]
+}

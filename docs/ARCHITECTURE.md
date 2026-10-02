@@ -43,3 +43,27 @@ These states refer to **review recommendations**. A reviewer can accept a recomm
 
 ## Research extension
 Use a held-out synthetic packet set and independent human labels. Compare rule-only and LLM-assisted review on citation support, missed issues, false positives and reviewer decision time. Counterbalance packet order and document task difficulty. Do not claim causal time savings before collecting an appropriate study.
+
+## V4 extension
+
+See [V4 contracts and limitations](V4.md). Existing recommendation decisions remain compatible. New `support`, `final`, and `rca` events share the same revision counter and verified SQLite journal. Final dispositions block later content edits while preserving post-decision RCA. Derived metrics and feedback never mutate source evidence.
+
+```mermaid
+flowchart TD
+ K[Research knowledge snapshot] --> R[Lexical retrieval + structured scan]
+ R --> E[Selected evidence with coordinates]
+ E --> A[Rules + optional local LLM]
+ A --> C[Claims and consistency evaluation]
+ C --> H[Human support checks and final disposition]
+ H --> B[Badcase investigation candidate]
+ B --> T[Trace and first divergence]
+ T --> D[Human validated RCA and responsible component]
+ D --> F[L0 report / L1 local ticket / L2 proposal]
+ D --> G[Frozen regression case]
+ F --> X[Human implements correction]
+ X --> G
+ G --> Q[Replay and offline gate]
+ Q --> R
+```
+
+No hidden chain-of-thought is requested or stored. Trace records observable inputs, outputs, source links and decisions.

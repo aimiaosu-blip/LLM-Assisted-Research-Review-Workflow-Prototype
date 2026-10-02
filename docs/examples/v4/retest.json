@@ -1,0 +1,8 @@
+{
+  "case": "runs/v4-demo/regression/retention.json",
+  "passed": true,
+  "expected_kind": "conflict",
+  "actual_kind": "conflict",
+  "missing_evidence": [],
+  "scope": "Replays deterministic retrieval/selection/rules only, not live LLM or human judgment"
+}
