@@ -12,3 +12,12 @@ To reproduce:
 5. Scroll to the audit trail and capture the three decisions and their rationales.
 
 The included HTML/JSON exports in `examples/` preserve the executed demonstration. Re-running produces new event timestamps. Exact evidence IDs remain stable for unchanged inputs.
+
+## Interactive workspace (current extension)
+
+Run `python3 -m reviewflow.web`, open the loopback URL and follow README's eight
+steps. Capture the clarification, state/query, expanded evidence, next questions,
+decision gate and human audit. The previous dashboard.png is the legacy static
+packet view, not a screenshot of the new UI. In this implementation environment
+HTTP interaction was verified, but a real browser binary could not be downloaded;
+no new visual screenshot or browser-rendered QA is claimed.

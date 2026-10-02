@@ -1,0 +1,16 @@
+{
+  "document_id": "PAPER-005",
+  "title": "SYNTHETIC \u2014 Forecast comparison",
+  "author": "Synthetic Research Team PAPER-005",
+  "date": "2024-03-15",
+  "document_type": "paper",
+  "research_area": "Energy demand forecasting",
+  "synthetic": true,
+  "sections": {
+    "related_work": "Probabilistic energy demand forecasting compares seasonal and neural baselines.",
+    "methodology": "Temporal holdout prevents future leakage; predictions use synthetic time series."
+  },
+  "citations": [],
+  "relations": [],
+  "scope": "academic"
+}

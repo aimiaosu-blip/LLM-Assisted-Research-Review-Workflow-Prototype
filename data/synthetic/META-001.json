@@ -1,0 +1,15 @@
+{
+  "document_id": "META-001",
+  "title": "SYNTHETIC \u2014 Publication register",
+  "author": "Synthetic Research Team META-001",
+  "date": "2026-03-15",
+  "document_type": "metadata",
+  "research_area": "AI-assisted network optimization",
+  "synthetic": true,
+  "sections": {
+    "register": "PAPER-002 cites PAPER-001; PAPER-003 cites PAPER-001. Publication dates and titles are synthetic. One proposal citation is unresolved: PAPER-MISSING."
+  },
+  "citations": [],
+  "relations": [],
+  "scope": "internal"
+}

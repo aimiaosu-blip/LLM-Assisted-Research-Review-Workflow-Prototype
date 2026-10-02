@@ -1,0 +1,15 @@
+{
+  "document_id": "PAPER-OLD",
+  "title": "SYNTHETIC \u2014 Early traffic routing",
+  "author": "Synthetic Research Team PAPER-OLD",
+  "date": "2021-03-15",
+  "document_type": "paper",
+  "research_area": "AI-assisted network optimization",
+  "synthetic": true,
+  "sections": {
+    "related_work": "Early adaptive network optimization lacks operator explanations."
+  },
+  "citations": [],
+  "relations": [],
+  "scope": "academic"
+}

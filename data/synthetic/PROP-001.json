@@ -1,0 +1,26 @@
+{
+  "document_id": "PROP-001",
+  "title": "SYNTHETIC \u2014 Adaptive network co-pilot proposal",
+  "author": "Synthetic Research Team PROP-001",
+  "date": "2026-03-15",
+  "document_type": "proposal",
+  "research_area": "AI-assisted network optimization",
+  "synthetic": true,
+  "sections": {
+    "objective": "We propose AI-assisted network optimization using a human-supervised co-pilot. Novelty claim: first adaptive traffic scheduling model with operator explanations.",
+    "methodology": "A simulated network with 24 traffic traces is planned. No power calculation or held-out validation report is supplied.",
+    "ethics": "Production traffic data approval is pending. Intended deployment affects network availability."
+  },
+  "citations": [
+    "PAPER-001",
+    "PAPER-MISSING"
+  ],
+  "relations": [],
+  "impact": "high",
+  "mandatory_evidence": [
+    "related_work",
+    "methodology",
+    "validation",
+    "ethics"
+  ]
+}

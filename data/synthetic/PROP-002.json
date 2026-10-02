@@ -1,0 +1,19 @@
+{
+  "document_id": "PROP-002",
+  "title": "SYNTHETIC \u2014 Robotics retrieval review",
+  "author": "Synthetic Research Team PROP-002",
+  "date": "2026-03-15",
+  "document_type": "proposal",
+  "research_area": "Embodied AI research",
+  "synthetic": true,
+  "sections": {
+    "objective": "Research a retrieval-assisted embodied AI laboratory helper using only synthetic robotics task logs."
+  },
+  "citations": [],
+  "relations": [],
+  "impact": "low",
+  "mandatory_evidence": [
+    "related_work",
+    "methodology"
+  ]
+}

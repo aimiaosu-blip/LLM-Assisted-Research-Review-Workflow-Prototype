@@ -1,0 +1,15 @@
+{
+  "document_id": "GUIDE-001",
+  "title": "SYNTHETIC \u2014 Research review and decision rights",
+  "author": "Synthetic Research Board",
+  "date": "2026-03-15",
+  "document_type": "guideline",
+  "research_area": "AI-assisted network optimization",
+  "synthetic": true,
+  "sections": {
+    "policy": "Every major recommendation requires traceable evidence. Related work, methodology, validation and ethics are mandatory for this synthetic proposal. Missing evidence requires more information; conflicts require human review. AI cannot finalize approval."
+  },
+  "citations": [],
+  "relations": [],
+  "scope": "internal"
+}

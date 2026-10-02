@@ -1,0 +1,22 @@
+{
+  "document_id": "ART-001",
+  "title": "SYNTHETIC \u2014 Internal scheduling pilot",
+  "author": "Synthetic Research Team ART-001",
+  "date": "2024-03-15",
+  "document_type": "artefact",
+  "research_area": "AI-assisted network optimization",
+  "synthetic": true,
+  "sections": {
+    "related_work": "Internal pilot used adaptive scheduling with operator explanations; potentially overlapping research already exists.",
+    "methodology": "Pilot logs contain 24 traces, no control group, and no prospective power calculation.",
+    "validation": "Latency improvement cannot be attributed to the co-pilot because load and configuration changed concurrently."
+  },
+  "citations": [],
+  "relations": [
+    {
+      "type": "related_to",
+      "target": "PAPER-001"
+    }
+  ],
+  "scope": "internal"
+}

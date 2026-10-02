@@ -1,0 +1,592 @@
+{
+  "label": "EXECUTED SYNTHETIC DEMO",
+  "original_input": "Can you check whether this research is good enough? Exclude patents.",
+  "state": {
+    "decision_stage": "finalized",
+    "excluded_sources": [
+      "patent"
+    ],
+    "impact": "high",
+    "important_constraints": [
+      "traceable_evidence_required",
+      "human_final_decision_required"
+    ],
+    "intent": "methodology",
+    "investigated_questions": [
+      "conflicting_findings"
+    ],
+    "original_input": "Can you check whether this research is good enough? Exclude patents.",
+    "proposal_id": "PROP-001",
+    "research_topic": "AI-assisted network optimization",
+    "resolved_questions": [],
+    "scope": "internal_and_academic",
+    "time_range": {
+      "end": 2026,
+      "start": 2023
+    },
+    "turns": [
+      {
+        "explicit_intent": null,
+        "input": "Can you check whether this research is good enough? Exclude patents."
+      },
+      {
+        "explicit_intent": "novelty",
+        "input": "Assess novelty using internal and academic research from 2023 to 2026."
+      },
+      {
+        "explicit_intent": "methodology",
+        "input": "Why do PAPER-002 and PAPER-001 disagree, and which methodological differences explain it?"
+      }
+    ],
+    "unresolved_questions": [
+      "ethics",
+      "conflicting_findings",
+      "PAPER-MISSING"
+    ]
+  },
+  "rewritten_query": "Retrieve internal_and_academic research from 2023\u20132026 related to AI-assisted network optimization, excluding source types: patent. Evaluate Methodology for proposal PROP-001; latest question: Why do PAPER-002 and PAPER-001 disagree, and which methodological differences explain it?. Preserve traceable evidence and human final authority.",
+  "evidence": [
+    {
+      "author": "Synthetic Research Board",
+      "citation_relationships": [],
+      "date": "2026-03-15",
+      "document_id": "GUIDE-001",
+      "document_type": "guideline",
+      "evidence_id": "EVID-65908c21db6e",
+      "relationship": "topic and lexical match",
+      "research_area": "AI-assisted network optimization",
+      "retrieval_score": 0.31707,
+      "scope": "internal",
+      "section": "policy",
+      "sha256": "a68077ade69aa137de5e4abc715cf9e6ced5031096a3c408c657b3f20908bf10",
+      "source_location": "data/synthetic/GUIDE-001.json#$.sections.policy",
+      "text": "Every major recommendation requires traceable evidence. Related work, methodology, validation and ethics are mandatory for this synthetic proposal. Missing evidence requires more information; conflicts require human review. AI cannot finalize approval.",
+      "title": "SYNTHETIC \u2014 Research review and decision rights"
+    },
+    {
+      "author": "Synthetic Research Team ART-001",
+      "citation_relationships": [],
+      "date": "2024-03-15",
+      "document_id": "ART-001",
+      "document_type": "artefact",
+      "evidence_id": "EVID-26429c079ecc",
+      "relationship": "graph-linked related work",
+      "research_area": "AI-assisted network optimization",
+      "retrieval_score": 0.29634,
+      "scope": "internal",
+      "section": "validation",
+      "sha256": "499de3ae3a3420ebad018c1abfc6d59acec08fd5e8b585dd8b36a989f6dc6909",
+      "source_location": "data/synthetic/ART-001.json#$.sections.validation",
+      "text": "Latency improvement cannot be attributed to the co-pilot because load and configuration changed concurrently.",
+      "title": "SYNTHETIC \u2014 Internal scheduling pilot"
+    },
+    {
+      "author": "Synthetic Research Team PAPER-003",
+      "citation_relationships": [
+        "PAPER-001"
+      ],
+      "date": "2026-03-15",
+      "document_id": "PAPER-003",
+      "document_type": "paper",
+      "evidence_id": "EVID-ba4660943af9",
+      "relationship": "graph-linked related work",
+      "research_area": "AI-assisted network optimization",
+      "retrieval_score": 0.29634,
+      "scope": "academic",
+      "section": "related_work",
+      "sha256": "b78e0bb65f7257a8fd95bddc18153952d58a7312a2591bc8e5f0d24615586960",
+      "source_location": "data/synthetic/PAPER-003.json#$.sections.related_work",
+      "text": "Human override and explanations support inspection of AI-assisted network optimization recommendations.",
+      "title": "SYNTHETIC \u2014 Operator trust in AI recommendations"
+    },
+    {
+      "author": "Synthetic Research Team PAPER-001",
+      "citation_relationships": [],
+      "date": "2023-03-15",
+      "document_id": "PAPER-001",
+      "document_type": "paper",
+      "evidence_id": "EVID-ca19be0202d2",
+      "relationship": "graph-linked related work",
+      "research_area": "AI-assisted network optimization",
+      "retrieval_score": 0.29634,
+      "scope": "academic",
+      "section": "related_work",
+      "sha256": "db292a7bca649bd83fc7641e04795961a73186f5a4701b83f185d41bbcb8693f",
+      "source_location": "data/synthetic/PAPER-001.json#$.sections.related_work",
+      "text": "Adaptive traffic scheduling with operator explanations was explored in 2023. This prior approach overlaps the proposal novelty claim.",
+      "title": "SYNTHETIC \u2014 Explained adaptive scheduling"
+    },
+    {
+      "author": "Synthetic Research Team ART-001",
+      "citation_relationships": [],
+      "date": "2024-03-15",
+      "document_id": "ART-001",
+      "document_type": "artefact",
+      "evidence_id": "EVID-003b75b7d8da",
+      "relationship": "graph-linked related work",
+      "research_area": "AI-assisted network optimization",
+      "retrieval_score": 0.27195,
+      "scope": "internal",
+      "section": "related_work",
+      "sha256": "499de3ae3a3420ebad018c1abfc6d59acec08fd5e8b585dd8b36a989f6dc6909",
+      "source_location": "data/synthetic/ART-001.json#$.sections.related_work",
+      "text": "Internal pilot used adaptive scheduling with operator explanations; potentially overlapping research already exists.",
+      "title": "SYNTHETIC \u2014 Internal scheduling pilot"
+    },
+    {
+      "author": "Synthetic Research Team PAPER-002",
+      "citation_relationships": [
+        "PAPER-001"
+      ],
+      "date": "2025-03-15",
+      "document_id": "PAPER-002",
+      "document_type": "paper",
+      "evidence_id": "EVID-67b5f9c470a8",
+      "relationship": "graph-linked related work",
+      "research_area": "AI-assisted network optimization",
+      "retrieval_score": 0.27195,
+      "scope": "academic",
+      "section": "related_work",
+      "sha256": "9d795f9436edc428ea2f1f701ceb5ab3b365e0efe28d9d0fc3a677217ec8162c",
+      "source_location": "data/synthetic/PAPER-002.json#$.sections.related_work",
+      "text": "A replication extends explained adaptive scheduling to burst traffic.",
+      "title": "SYNTHETIC \u2014 Replication under burst traffic"
+    },
+    {
+      "author": "Synthetic Research Team ART-001",
+      "citation_relationships": [],
+      "date": "2024-03-15",
+      "document_id": "ART-001",
+      "document_type": "artefact",
+      "evidence_id": "EVID-f739f1bdf17a",
+      "relationship": "graph-linked related work",
+      "research_area": "AI-assisted network optimization",
+      "retrieval_score": 0.27195,
+      "scope": "internal",
+      "section": "methodology",
+      "sha256": "499de3ae3a3420ebad018c1abfc6d59acec08fd5e8b585dd8b36a989f6dc6909",
+      "source_location": "data/synthetic/ART-001.json#$.sections.methodology",
+      "text": "Pilot logs contain 24 traces, no control group, and no prospective power calculation.",
+      "title": "SYNTHETIC \u2014 Internal scheduling pilot"
+    },
+    {
+      "author": "Synthetic Research Team PAPER-003",
+      "citation_relationships": [
+        "PAPER-001"
+      ],
+      "date": "2026-03-15",
+      "document_id": "PAPER-003",
+      "document_type": "paper",
+      "evidence_id": "EVID-062922ad29b5",
+      "relationship": "graph-linked related work",
+      "research_area": "AI-assisted network optimization",
+      "retrieval_score": 0.24756,
+      "scope": "academic",
+      "section": "methodology",
+      "sha256": "b78e0bb65f7257a8fd95bddc18153952d58a7312a2591bc8e5f0d24615586960",
+      "source_location": "data/synthetic/PAPER-003.json#$.sections.methodology",
+      "text": "A synthetic controlled usability protocol defines an operator comparison, without claiming real participant results.",
+      "title": "SYNTHETIC \u2014 Operator trust in AI recommendations"
+    },
+    {
+      "author": "Synthetic Research Team PAPER-001",
+      "citation_relationships": [],
+      "date": "2023-03-15",
+      "document_id": "PAPER-001",
+      "document_type": "paper",
+      "evidence_id": "EVID-8fac0ea12835",
+      "relationship": "graph-linked related work",
+      "research_area": "AI-assisted network optimization",
+      "retrieval_score": 0.24756,
+      "scope": "academic",
+      "section": "methodology",
+      "sha256": "db292a7bca649bd83fc7641e04795961a73186f5a4701b83f185d41bbcb8693f",
+      "source_location": "data/synthetic/PAPER-001.json#$.sections.methodology",
+      "text": "A controlled simulation compared adaptive scheduling with fixed routing on 50 held-out traffic traces.",
+      "title": "SYNTHETIC \u2014 Explained adaptive scheduling"
+    },
+    {
+      "author": "Synthetic Research Team PAPER-002",
+      "citation_relationships": [
+        "PAPER-001"
+      ],
+      "date": "2025-03-15",
+      "document_id": "PAPER-002",
+      "document_type": "paper",
+      "evidence_id": "EVID-9f452c225315",
+      "relationship": "graph-linked related work",
+      "research_area": "AI-assisted network optimization",
+      "retrieval_score": 0.24756,
+      "scope": "academic",
+      "section": "methodology",
+      "sha256": "9d795f9436edc428ea2f1f701ceb5ab3b365e0efe28d9d0fc3a677217ec8162c",
+      "source_location": "data/synthetic/PAPER-002.json#$.sections.methodology",
+      "text": "Held-out burst traffic traces use the same baseline but a different traffic distribution.",
+      "title": "SYNTHETIC \u2014 Replication under burst traffic"
+    },
+    {
+      "author": "Synthetic Research Team PAPER-001",
+      "citation_relationships": [],
+      "date": "2023-03-15",
+      "document_id": "PAPER-001",
+      "document_type": "paper",
+      "evidence_id": "EVID-a5b39ae447d6",
+      "relationship": "graph-linked related work",
+      "research_area": "AI-assisted network optimization",
+      "retrieval_score": 0.24756,
+      "scope": "academic",
+      "section": "validation",
+      "sha256": "db292a7bca649bd83fc7641e04795961a73186f5a4701b83f185d41bbcb8693f",
+      "source_location": "data/synthetic/PAPER-001.json#$.sections.validation",
+      "text": "Latency decreased 12 percent in this synthetic simulation, with a reported uncertainty interval. This is not real-world performance.",
+      "title": "SYNTHETIC \u2014 Explained adaptive scheduling"
+    },
+    {
+      "author": "Synthetic Research Team PAPER-002",
+      "citation_relationships": [
+        "PAPER-001"
+      ],
+      "date": "2025-03-15",
+      "document_id": "PAPER-002",
+      "document_type": "paper",
+      "evidence_id": "EVID-af44783cac3a",
+      "relationship": "graph-linked related work",
+      "research_area": "AI-assisted network optimization",
+      "retrieval_score": 0.24756,
+      "scope": "academic",
+      "section": "validation",
+      "sha256": "9d795f9436edc428ea2f1f701ceb5ab3b365e0efe28d9d0fc3a677217ec8162c",
+      "source_location": "data/synthetic/PAPER-002.json#$.sections.validation",
+      "text": "Latency increased 4 percent under burst traffic, contradicting the earlier improvement claim under changed conditions.",
+      "title": "SYNTHETIC \u2014 Replication under burst traffic"
+    }
+  ],
+  "decision_model": {
+    "answers": {
+      "evidence_sufficient": {
+        "probability": null,
+        "type": "binary_rule",
+        "value": false
+      },
+      "human_escalation": {
+        "probability": null,
+        "type": "binary_rule",
+        "value": true
+      },
+      "risk": {
+        "confidence": null,
+        "level": "high",
+        "score": 2,
+        "type": "ordered_rule"
+      },
+      "routing": {
+        "choice": "escalate_to_human",
+        "choices": [
+          "continue_ai_review",
+          "request_more_information",
+          "escalate_to_human"
+        ],
+        "confidence": null,
+        "type": "choice_rule"
+      }
+    },
+    "api_calls": 0,
+    "calibration": "Deterministic rules have no model probabilities or calibrated confidence",
+    "cost_usd": null,
+    "engine": "Local Deterministic Fallback",
+    "model": null,
+    "questions": {
+      "evidence_sufficient": {
+        "instructions": "Are all mandatory evidence sections present in the retrieved independent evidence, with no unresolved contradictions or citation conflicts?",
+        "type": "noul"
+      },
+      "human_escalation": {
+        "instructions": "Does this investigation require human escalation because of high impact, conflicts or high methodological uncertainty?",
+        "type": "noul"
+      },
+      "risk": {
+        "criteria": [
+          "low: no known methodological issues",
+          "medium: evidence gaps",
+          "high: contradictory or methodologically uncertain evidence",
+          "critical: material safety uncertainty"
+        ],
+        "instructions": "Rate methodological and evidence risk using observed gaps and conflicts. This score is not approval authority.",
+        "type": "score"
+      },
+      "routing": {
+        "criteria": {
+          "continue_ai_review": "Continue low-risk investigation",
+          "escalate_to_human": "Conflicts or high-impact judgment require a human",
+          "request_more_information": "Mandatory evidence or certainty missing"
+        },
+        "instructions": "Select a recommended review route. High impact and contradictions require human escalation. Missing evidence requires more information.",
+        "type": "choice"
+      }
+    },
+    "usage": null
+  },
+  "gate": {
+    "human_review_required": true,
+    "organizational_authority": "Human decision owner only; confidence never grants approval authority",
+    "policy_version": "synthetic-policy-1",
+    "reasons": [
+      "high_impact",
+      "conflicting_evidence_or_citation",
+      "methodological_uncertainty",
+      "risk_threshold",
+      "model_or_rule_escalation"
+    ],
+    "route": "escalate_to_human",
+    "thresholds": {
+      "escalation_yes_threshold": 0.65,
+      "high_risk_score": 2.0,
+      "minimum_choice_confidence": 0.75,
+      "sufficiency_yes_threshold": 0.85
+    }
+  },
+  "next_questions": [
+    {
+      "evidence_ids": [],
+      "id": "missing_ethics",
+      "intent": "evidence",
+      "reason": "Missing mandatory evidence: ethics",
+      "source_intent": "methodology",
+      "stage": "human_review",
+      "text": "Which approval criteria still lack ethics evidence, and what should be supplied?"
+    },
+    {
+      "evidence_ids": [],
+      "id": "citation_conflict",
+      "intent": "citation_consistency",
+      "reason": "Citation target absent from knowledge base",
+      "source_intent": "methodology",
+      "stage": "human_review",
+      "text": "Can the unresolved citation PAPER-MISSING be verified or corrected?"
+    },
+    {
+      "evidence_ids": [],
+      "id": "methodology_gap",
+      "intent": "methodology",
+      "reason": "Retrieved internal pilot lacks a control group",
+      "source_intent": "methodology",
+      "stage": "human_review",
+      "text": "Which controlled baseline and held-out validation would address the methodological uncertainty?"
+    }
+  ],
+  "human_decision": {
+    "action": "revise",
+    "authority": "Human-owned prototype disposition; no real organizational authorization",
+    "override": false,
+    "override_reason": "",
+    "rationale": "Prior work overlaps the novelty claim; reconcile contradictory findings and supply missing ethics evidence.",
+    "reviewer": "Synthetic decision owner",
+    "revised_proposal": "Narrow the novelty claim, compare burst traffic methods, verify PAPER-MISSING and supply ethics authorization evidence.",
+    "role": "decision_owner",
+    "semantic_support_confirmed": false
+  },
+  "metrics": {
+    "documents_retrieved": 5,
+    "evidence_coverage": 0.75,
+    "evidence_gaps": 1,
+    "completed_investigations": 2,
+    "human_decisions": 1,
+    "human_override_rate": 0.0,
+    "recommendation_acceptance_rate": 1.0,
+    "escalation_rate": 1.0,
+    "review_lead_time_seconds": 0.008183,
+    "model_api_calls_attempted": 0,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "cost_usd": null,
+    "retrieval_gold_coverage": null,
+    "caveat": "Synthetic session metrics. Coverage = mandatory sections retrieved / mandatory sections; not semantic sufficiency. Lead time includes idle time. Unmeasured cost and gold recall remain null."
+  },
+  "audit": [
+    {
+      "action": "workspace_created",
+      "timestamp": "2026-10-02T20:10:38.588773+00:00"
+    },
+    {
+      "action": "clarification_requested",
+      "clarification": {
+        "choices": {
+          "approval_readiness": "Approval readiness",
+          "citation_consistency": "Citation consistency",
+          "evidence": "Evidence completeness",
+          "methodology": "Methodology",
+          "novelty": "Novelty",
+          "related_work": "Related research"
+        },
+        "question": "What would you like to evaluate?",
+        "required": true
+      },
+      "original_input": "Can you check whether this research is good enough? Exclude patents.",
+      "timestamp": "2026-10-02T20:10:38.589792+00:00"
+    },
+    {
+      "action": "investigation_completed",
+      "active_decision_engine": "Local Deterministic Fallback",
+      "next_questions": [
+        {
+          "evidence_ids": [
+            "EVID-ca19be0202d2",
+            "EVID-67b5f9c470a8",
+            "EVID-8fac0ea12835",
+            "EVID-9f452c225315",
+            "EVID-a5b39ae447d6",
+            "EVID-af44783cac3a"
+          ],
+          "id": "conflicting_findings",
+          "intent": "methodology",
+          "reason": "Contradictory retrieved research",
+          "source_intent": "novelty",
+          "stage": "human_review",
+          "text": "Why do PAPER-002 and PAPER-001 disagree, and which methodological differences explain it?"
+        },
+        {
+          "evidence_ids": [],
+          "id": "missing_ethics",
+          "intent": "evidence",
+          "reason": "Missing mandatory evidence: ethics",
+          "source_intent": "novelty",
+          "stage": "human_review",
+          "text": "Which approval criteria still lack ethics evidence, and what should be supplied?"
+        },
+        {
+          "evidence_ids": [],
+          "id": "citation_conflict",
+          "intent": "citation_consistency",
+          "reason": "Citation target absent from knowledge base",
+          "source_intent": "novelty",
+          "stage": "human_review",
+          "text": "Can the unresolved citation PAPER-MISSING be verified or corrected?"
+        }
+      ],
+      "original_input": "Assess novelty using internal and academic research from 2023 to 2026.",
+      "retrieved_evidence_ids": [
+        "EVID-26429c079ecc",
+        "EVID-ca19be0202d2",
+        "EVID-65908c21db6e",
+        "EVID-003b75b7d8da",
+        "EVID-ba4660943af9",
+        "EVID-f739f1bdf17a",
+        "EVID-67b5f9c470a8",
+        "EVID-062922ad29b5",
+        "EVID-8fac0ea12835",
+        "EVID-9f452c225315",
+        "EVID-a5b39ae447d6",
+        "EVID-af44783cac3a"
+      ],
+      "rewritten_query": "Retrieve internal_and_academic research from 2023\u20132026 related to AI-assisted network optimization, excluding source types: patent. Evaluate Novelty for proposal PROP-001; latest question: Assess novelty using internal and academic research from 2023 to 2026.. Preserve traceable evidence and human final authority.",
+      "routing_decision": {
+        "human_review_required": true,
+        "organizational_authority": "Human decision owner only; confidence never grants approval authority",
+        "policy_version": "synthetic-policy-1",
+        "reasons": [
+          "high_impact",
+          "conflicting_evidence_or_citation",
+          "methodological_uncertainty",
+          "risk_threshold",
+          "model_or_rule_escalation"
+        ],
+        "route": "escalate_to_human",
+        "thresholds": {
+          "escalation_yes_threshold": 0.65,
+          "high_risk_score": 2.0,
+          "minimum_choice_confidence": 0.75,
+          "sufficiency_yes_threshold": 0.85
+        }
+      },
+      "selected_next_question": null,
+      "timestamp": "2026-10-02T20:10:38.591033+00:00"
+    },
+    {
+      "action": "investigation_completed",
+      "active_decision_engine": "Local Deterministic Fallback",
+      "next_questions": [
+        {
+          "evidence_ids": [],
+          "id": "missing_ethics",
+          "intent": "evidence",
+          "reason": "Missing mandatory evidence: ethics",
+          "source_intent": "methodology",
+          "stage": "human_review",
+          "text": "Which approval criteria still lack ethics evidence, and what should be supplied?"
+        },
+        {
+          "evidence_ids": [],
+          "id": "citation_conflict",
+          "intent": "citation_consistency",
+          "reason": "Citation target absent from knowledge base",
+          "source_intent": "methodology",
+          "stage": "human_review",
+          "text": "Can the unresolved citation PAPER-MISSING be verified or corrected?"
+        },
+        {
+          "evidence_ids": [],
+          "id": "methodology_gap",
+          "intent": "methodology",
+          "reason": "Retrieved internal pilot lacks a control group",
+          "source_intent": "methodology",
+          "stage": "human_review",
+          "text": "Which controlled baseline and held-out validation would address the methodological uncertainty?"
+        }
+      ],
+      "original_input": "Why do PAPER-002 and PAPER-001 disagree, and which methodological differences explain it?",
+      "retrieved_evidence_ids": [
+        "EVID-65908c21db6e",
+        "EVID-26429c079ecc",
+        "EVID-ba4660943af9",
+        "EVID-ca19be0202d2",
+        "EVID-003b75b7d8da",
+        "EVID-67b5f9c470a8",
+        "EVID-f739f1bdf17a",
+        "EVID-062922ad29b5",
+        "EVID-8fac0ea12835",
+        "EVID-9f452c225315",
+        "EVID-a5b39ae447d6",
+        "EVID-af44783cac3a"
+      ],
+      "rewritten_query": "Retrieve internal_and_academic research from 2023\u20132026 related to AI-assisted network optimization, excluding source types: patent. Evaluate Methodology for proposal PROP-001; latest question: Why do PAPER-002 and PAPER-001 disagree, and which methodological differences explain it?. Preserve traceable evidence and human final authority.",
+      "routing_decision": {
+        "human_review_required": true,
+        "organizational_authority": "Human decision owner only; confidence never grants approval authority",
+        "policy_version": "synthetic-policy-1",
+        "reasons": [
+          "high_impact",
+          "conflicting_evidence_or_citation",
+          "methodological_uncertainty",
+          "risk_threshold",
+          "model_or_rule_escalation"
+        ],
+        "route": "escalate_to_human",
+        "thresholds": {
+          "escalation_yes_threshold": 0.65,
+          "high_risk_score": 2.0,
+          "minimum_choice_confidence": 0.75,
+          "sufficiency_yes_threshold": 0.85
+        }
+      },
+      "selected_next_question": "conflicting_findings",
+      "timestamp": "2026-10-02T20:10:38.593932+00:00"
+    },
+    {
+      "action": "human_decision",
+      "human_action": {
+        "action": "revise",
+        "authority": "Human-owned prototype disposition; no real organizational authorization",
+        "override": false,
+        "override_reason": "",
+        "rationale": "Prior work overlaps the novelty claim; reconcile contradictory findings and supply missing ethics evidence.",
+        "reviewer": "Synthetic decision owner",
+        "revised_proposal": "Narrow the novelty claim, compare burst traffic methods, verify PAPER-MISSING and supply ethics authorization evidence.",
+        "role": "decision_owner",
+        "semantic_support_confirmed": false
+      },
+      "override_status": false,
+      "timestamp": "2026-10-02T20:10:38.596956+00:00"
+    }
+  ],
+  "note": "Compact export from actual synthetic execution; complete snapshots are generated locally by examples/run_workflow.py"
+}

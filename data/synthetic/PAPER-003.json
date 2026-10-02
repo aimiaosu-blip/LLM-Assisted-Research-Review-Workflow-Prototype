@@ -1,0 +1,18 @@
+{
+  "document_id": "PAPER-003",
+  "title": "SYNTHETIC \u2014 Operator trust in AI recommendations",
+  "author": "Synthetic Research Team PAPER-003",
+  "date": "2026-03-15",
+  "document_type": "paper",
+  "research_area": "AI-assisted network optimization",
+  "synthetic": true,
+  "sections": {
+    "related_work": "Human override and explanations support inspection of AI-assisted network optimization recommendations.",
+    "methodology": "A synthetic controlled usability protocol defines an operator comparison, without claiming real participant results."
+  },
+  "citations": [
+    "PAPER-001"
+  ],
+  "relations": [],
+  "scope": "academic"
+}

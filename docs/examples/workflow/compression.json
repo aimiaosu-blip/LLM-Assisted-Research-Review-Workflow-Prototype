@@ -1,0 +1,178 @@
+{
+  "label": "Synthetic Context Compression Experiment",
+  "baseline": "Deliberately naive last-turn-only summarizer; not live LLM output",
+  "cases": [
+    {
+      "case": 1,
+      "conversation": [
+        "Review novelty. Exclude patents.",
+        "Use internal and academic sources from 2023 to 2026.",
+        "Explain overlapping research."
+      ],
+      "naive_summary": "Explain overlapping research.",
+      "structured_state": {
+        "intent": "novelty",
+        "research_topic": "AI-assisted network optimization",
+        "proposal_id": "PROP-001",
+        "scope": "internal_and_academic",
+        "time_range": {
+          "start": 2023,
+          "end": 2026
+        },
+        "excluded_sources": [
+          "patent"
+        ],
+        "decision_stage": "pre_review",
+        "resolved_questions": [],
+        "investigated_questions": [],
+        "unresolved_questions": [],
+        "important_constraints": [
+          "traceable_evidence_required",
+          "human_final_decision_required"
+        ],
+        "impact": "high",
+        "original_input": "Review novelty. Exclude patents.",
+        "turns": [
+          {
+            "input": "Review novelty. Exclude patents.",
+            "explicit_intent": null
+          },
+          {
+            "input": "Use internal and academic sources from 2023 to 2026.",
+            "explicit_intent": null
+          },
+          {
+            "input": "Explain overlapping research.",
+            "explicit_intent": null
+          }
+        ]
+      },
+      "naive_retention": {
+        "exclude_patents": false,
+        "time_range": true,
+        "scope": true
+      },
+      "structured_retention": {
+        "exclude_patents": true,
+        "time_range": true,
+        "scope": true
+      }
+    },
+    {
+      "case": 2,
+      "conversation": [
+        "Review novelty from 2024 to 2026. Exclude patents.",
+        "Compare methodological differences.",
+        "Focus on novelty."
+      ],
+      "naive_summary": "Focus on novelty.",
+      "structured_state": {
+        "intent": "novelty",
+        "research_topic": "AI-assisted network optimization",
+        "proposal_id": "PROP-001",
+        "scope": "internal_and_academic",
+        "time_range": {
+          "start": 2024,
+          "end": 2026
+        },
+        "excluded_sources": [
+          "patent"
+        ],
+        "decision_stage": "pre_review",
+        "resolved_questions": [],
+        "investigated_questions": [],
+        "unresolved_questions": [],
+        "important_constraints": [
+          "traceable_evidence_required",
+          "human_final_decision_required"
+        ],
+        "impact": "high",
+        "original_input": "Review novelty from 2024 to 2026. Exclude patents.",
+        "turns": [
+          {
+            "input": "Review novelty from 2024 to 2026. Exclude patents.",
+            "explicit_intent": null
+          },
+          {
+            "input": "Compare methodological differences.",
+            "explicit_intent": null
+          },
+          {
+            "input": "Focus on novelty.",
+            "explicit_intent": null
+          }
+        ]
+      },
+      "naive_retention": {
+        "exclude_patents": false,
+        "time_range": false,
+        "scope": true
+      },
+      "structured_retention": {
+        "exclude_patents": true,
+        "time_range": true,
+        "scope": true
+      }
+    },
+    {
+      "case": 3,
+      "conversation": [
+        "Check methodology. Exclude patents.",
+        "Use internal only research.",
+        "Check sample size."
+      ],
+      "naive_summary": "Check sample size.",
+      "structured_state": {
+        "intent": "methodology",
+        "research_topic": "AI-assisted network optimization",
+        "proposal_id": "PROP-001",
+        "scope": "internal",
+        "time_range": {
+          "start": 2023,
+          "end": 2026
+        },
+        "excluded_sources": [
+          "patent"
+        ],
+        "decision_stage": "pre_review",
+        "resolved_questions": [],
+        "investigated_questions": [],
+        "unresolved_questions": [],
+        "important_constraints": [
+          "traceable_evidence_required",
+          "human_final_decision_required"
+        ],
+        "impact": "high",
+        "original_input": "Check methodology. Exclude patents.",
+        "turns": [
+          {
+            "input": "Check methodology. Exclude patents.",
+            "explicit_intent": null
+          },
+          {
+            "input": "Use internal only research.",
+            "explicit_intent": null
+          },
+          {
+            "input": "Check sample size.",
+            "explicit_intent": null
+          }
+        ]
+      },
+      "naive_retention": {
+        "exclude_patents": false,
+        "time_range": true,
+        "scope": false
+      },
+      "structured_retention": {
+        "exclude_patents": true,
+        "time_range": true,
+        "scope": true
+      }
+    }
+  ],
+  "critical_constraint_checks": 9,
+  "naive_constraints_retained": 4,
+  "structured_constraints_retained": 9,
+  "limitation": "Hand-authored cases demonstrate possible loss; not an estimate of real model summarization quality."
+}

@@ -1,0 +1,13 @@
+{
+  "version": "synthetic-policy-1",
+  "minimum_choice_confidence": 0.75,
+  "sufficiency_yes_threshold": 0.85,
+  "escalation_yes_threshold": 0.65,
+  "high_risk_score": 2.0,
+  "mandatory_evidence": ["related_work", "methodology", "validation", "ethics"],
+  "final_decision_role": "decision_owner",
+  "high_impact_requires_human": true,
+  "all_final_decisions_require_human": true,
+  "missing_evidence_route": "request_more_information",
+  "conflict_route": "escalate_to_human"
+}

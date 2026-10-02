@@ -1,0 +1,24 @@
+{
+  "document_id": "REV-001",
+  "title": "SYNTHETIC \u2014 Historical pilot revision",
+  "author": "Synthetic Research Team REV-001",
+  "date": "2024-03-15",
+  "document_type": "review",
+  "research_area": "AI-assisted network optimization",
+  "synthetic": true,
+  "sections": {
+    "decision": "Synthetic decision owner requested revision of the internal pilot because no controlled baseline was supplied. This is a historical demonstration, not approval for PROP-001."
+  },
+  "citations": [],
+  "relations": [
+    {
+      "type": "reviewed_by",
+      "target": "Synthetic Review Board"
+    },
+    {
+      "type": "related_to",
+      "target": "ART-001"
+    }
+  ],
+  "scope": "internal"
+}

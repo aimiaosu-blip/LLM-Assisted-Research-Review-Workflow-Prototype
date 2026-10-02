@@ -1,0 +1,15 @@
+{
+  "document_id": "ART-003",
+  "title": "SYNTHETIC \u2014 Forecast replication",
+  "author": "Synthetic Research Team ART-003",
+  "date": "2025-03-15",
+  "document_type": "artefact",
+  "research_area": "Energy demand forecasting",
+  "synthetic": true,
+  "sections": {
+    "validation": "Synthetic forecasting replication uses rolling windows and reports errors by horizon."
+  },
+  "citations": [],
+  "relations": [],
+  "scope": "internal"
+}
