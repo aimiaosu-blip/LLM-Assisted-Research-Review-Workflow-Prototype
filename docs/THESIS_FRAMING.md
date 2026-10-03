@@ -34,4 +34,4 @@ Before a trial, business/policy owners, researchers and engineers should agree o
 
 ## Honest project narrative
 
-This AI-assisted portfolio prototype operationalises a research question through inspectable evidence, human control and an offline feedback loop. It provides a basis for a thesis evaluation, rather than claiming the thesis results in advance. Personal contribution should distinguish framing, verification and any user-authored changes from AI-assisted implementation.
+This AI-assisted portfolio prototype operationalises a research question through inspectable evidence, human control and an offline feedback loop. It provides a basis for a thesis evaluation, rather than claiming the thesis results in advance.

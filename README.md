@@ -2,7 +2,7 @@
 
 **Researchers provide intent. The system helps turn it into a precise, retrievable and verifiable question — then a human owns the decision.**
 
-An independent **Business × AI research prototype**, using only **synthetic demonstration data**. Not an Ericsson system, enterprise deployment or validated user study. Implementation is AI-assisted; personal understanding and validation must be demonstrated separately.
+An independent **Business × AI research prototype**, using only **synthetic demonstration data**. Not an Ericsson system, enterprise deployment or validated user study. Development used AI assistance.
 
 ## Run the interactive demo — no key or pip installation required
 
@@ -169,4 +169,4 @@ Lexical retrieval is lightweight, not semantic embeddings. Contradictions and ci
 
 The UI selects bundled proposals; general PDF upload/OCR, enterprise SSO, authenticated decision rights, multi-tenant security, semantic adjudication and live model calibration are future work. Next research steps: independently annotate held-out cases, run live-model evaluations, then conduct a counterbalanced reviewer study of time, quality, trust and override behavior.
 
-Technical documentation: [gap analysis](docs/GAP_ANALYSIS.md) · [architecture](docs/WORKFLOW_ARCHITECTURE.md) · [governance/business logic](docs/WORKFLOW_GOVERNANCE.md) · [evaluation](docs/WORKFLOW_EVALUATION.md) · [hands-on checklist](docs/HANDS_ON.md).
+Technical documentation: [gap analysis](docs/GAP_ANALYSIS.md) · [architecture](docs/WORKFLOW_ARCHITECTURE.md) · [governance/business logic](docs/WORKFLOW_GOVERNANCE.md) · [evaluation](docs/WORKFLOW_EVALUATION.md).
